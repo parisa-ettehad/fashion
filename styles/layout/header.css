@@ -1,0 +1,24 @@
+.header__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--blue-color);
+}
+
+.nav__lists{
+    display: flex;
+    gap: 20px;
+}
+
+.header__wrapper--mid{
+    text-align: center;
+}
+
+.header__wrapper--mid h1{
+    position: relative;
+    color: var(--font-color);
+    font-size: 30px;
+    top: 10px;
+    font-family: 'Libre Baskerville', serif;
+}
