@@ -130,16 +130,9 @@
 
     .hero__wrapper--right{
         margin: 0px;
-        justify-content: flex-start;
     }
 
     .right__slider{
         margin: 16px 0px;
-    }
-}
-
-@media (max-width: 417px){
-    .collection--wrapper{
-        
     }
 }
