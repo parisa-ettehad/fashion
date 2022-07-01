@@ -33,3 +33,7 @@
 .profile__btn:hover{
     border: none;
 }
+
+.btn__categories{
+    margin-top: 36px;
+}

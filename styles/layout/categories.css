@@ -1,6 +1,3 @@
-#categories{
-}
-
 .categories__wrapper{
     display: flex;
     align-items: center;
@@ -17,6 +14,10 @@
 .categories__wrapper p{
     color: gray;
     font-size: small;
+}
+.categories__wrapper h3{
+    color: black;
+    margin-top: 12px;
 }
 
 .categories__wrapper--header{
