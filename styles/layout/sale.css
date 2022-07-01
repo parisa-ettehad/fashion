@@ -4,7 +4,7 @@
 .sale__wrapper{
     align-items: center;
     display: grid;
-    grid-template-columns: 1.4fr 1fr 1.2fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
 }
 
@@ -15,7 +15,6 @@
 }
 
 .sale__wrapper--left{
-    z-index: 999;
 }
 
 .sale__wrapper--mid{
@@ -29,4 +28,12 @@
 
 .sale__wrapper--right{
     z-index: 999;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.sale__wrapper img{
+    height: 550px;
+    width: 300px;
 }
