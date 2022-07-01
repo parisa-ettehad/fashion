@@ -1,0 +1,32 @@
+#sale{
+}
+
+.sale__wrapper{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1.2fr;
+    justify-content: space-between;
+}
+
+.sale__wrapper p {
+    color: gray;
+    font-size: small;
+    margin-bottom: 2.5rem;
+}
+
+.sale__wrapper--left{
+    z-index: 999;
+}
+
+.sale__wrapper--mid{
+    position: relative;
+    top: -426px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sale__wrapper--right{
+    z-index: 999;
+}
