@@ -28,7 +28,7 @@
 .about__wrapper--grid{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(5, 150px);
+    grid-template-columns: repeat(auto-fit, minmax(150px , 1fr));
     justify-content: space-around;
     grid-gap: 8px;
 }
