@@ -22,3 +22,27 @@
     top: 10px;
     font-family: 'Libre Baskerville', serif;
 }
+
+.menu{
+    display: none;
+}
+
+@media(max-width: 880px){
+    .header__wrapper--left{
+        display: none;
+    }
+    .header__wrapper--right{
+        display: none;
+    }
+    .header__wrapper--mid{
+        position: relative;
+        left: -30px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .menu{
+        display: block;
+    }
+}

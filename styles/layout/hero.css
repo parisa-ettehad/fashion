@@ -149,9 +149,3 @@
         min-height: 625px;
     }
 }
-
-@media(man-width: 410px){
-    #hero{
-        min-height: 750px;
-    }
-}
