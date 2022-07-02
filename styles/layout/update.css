@@ -27,8 +27,8 @@
 .update__wrapper--detaile{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px , 1fr));
-    justify-content: space-between;
+    grid-template-columns: repeat(auto-fit, 400px);
+    justify-content: space-around;
     align-items: center;
     grid-gap: 28px;
 }
@@ -68,4 +68,10 @@
     border-radius: 20px;
     width: 400px;
     height: 300px;
+}
+
+@media (max-width: 1300px) {
+    .inspiration__wrapper--detaile{
+        justify-content: space-between;
+    }
 }
