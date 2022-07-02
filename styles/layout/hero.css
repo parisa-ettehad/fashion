@@ -1,5 +1,5 @@
 #hero{
-    max-height: 410px;
+    max-height: 417px;
 }
 
 .hero__wrapper{
@@ -125,7 +125,8 @@
         flex-direction: column;
         align-items: flex-start;
         gap:10px;
-        
+        max-height: 570px;
+
     }
 
     .hero__wrapper--right{
@@ -134,5 +135,23 @@
 
     .right__slider{
         margin: 16px 0px;
+    }
+}
+
+@media (max-width: 720px){
+    #hero{
+        min-height: 500px;
+    }
+}
+
+@media(max-width: 465px){
+    #hero{
+        min-height: 625px;
+    }
+}
+
+@media(man-width: 410px){
+    #hero{
+        min-height: 750px;
     }
 }

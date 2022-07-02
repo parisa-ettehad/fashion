@@ -48,6 +48,7 @@
 .sale__wrapper--mid p{
     color: gray;
     font-size: 12px;
+    text-align: center;
 }
 
 .sala__h2{
@@ -76,4 +77,22 @@
 .sale__wrapper--left img{
     position: relative;
     top: 18px;
+}
+
+@media (max-width: 910px) {
+    #sale{    
+        background-color: var(--light-color);
+    }
+    .sale__wrapper img{
+        display: none;
+    }
+    .sala__h2{
+        font-size: 30px;
+    }
+    .sale__box{
+        position: relative;
+        top: 0px;
+        display: flex;
+        justify-content: center;
+    }
 }
