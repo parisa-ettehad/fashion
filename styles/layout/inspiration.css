@@ -10,6 +10,10 @@
     color: gray;
 }
 
+.inspiration__wrapper h4{
+    color: var(--blue-color);
+}
+
 .wrapper__header--p{
     width: 350px;
 }
@@ -29,9 +33,8 @@
 
 .inspiration__wrapper--detaile{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
 }
 
 .wrapper__left--back{
@@ -39,7 +42,6 @@
     width: 300px;
     background-color: var(--primary-color);
     position: relative;
-    left: -73px;
 }
 
 .inspiration__wrapper--left img{
@@ -47,5 +49,10 @@
     height: 400px;
     position: relative;
     top: -358px;
-    left: -28PX;
+    left: 38PX;
+}
+
+.inspiration__wrapper--right{
+    position: relative;
+    max-width: 300px;
 }
