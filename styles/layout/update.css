@@ -34,15 +34,20 @@
 }
 
 .date{
+    position: relative;
+    top: 80px;
+    left: 11px;
     background-color: var(--light-color);
-    height: 60px;
-    width: 40px;
+    height: 70px;
+    width: 34px;
     font-size: 30px;
     display: flex;
     flex-direction: column;
     color: var(--font-color);
-    padding: 10px;
+    padding: 30px;
     border-radius: 20px;
+    align-items: center;
+    justify-content: center;
     z-index: 9999;
 }
 
