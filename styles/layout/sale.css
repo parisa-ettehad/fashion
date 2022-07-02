@@ -5,8 +5,7 @@
 
 .sale__wrapper{
     align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -14,6 +13,13 @@
     color: gray;
     font-size: small;
     margin-bottom: 2.5rem;
+}
+
+.sale__box{
+    position: relative;
+    top: -420px;
+    display: flex;
+    justify-content: center;
 }
 
 .sale__wrapper--mid{
@@ -25,9 +31,33 @@
     border: 15PX solid rgba(66, 64, 64, 0.5);
     width: 430PX;
     height: auto;
-    padding: 42PX;
+    padding: 50PX 10px;
     z-index: 999;
     background-color: var(--primary-color);
+}
+
+.sale__wrapper--mid h4{
+    color: var(--blue-color);
+}
+
+.sala__h1{
+    color: var(--font-color);
+    font-size: 30px;
+}
+
+.sale__wrapper--mid p{
+    color: gray;
+    font-size: 10px;
+}
+
+.sala__h2{
+    font-size: 50px;
+    font-style: italic;
+    color: #b0967e;
+}
+
+.sale__wrapper--mid span{
+    color: var(--font-color);
 }
 
 .sale__wrapper--right{
