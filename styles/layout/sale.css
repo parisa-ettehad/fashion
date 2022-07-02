@@ -43,6 +43,7 @@
 .sala__h1{
     color: var(--font-color);
     font-size: 30px;
+    text-align: center;
 }
 
 .sale__wrapper--mid p{
