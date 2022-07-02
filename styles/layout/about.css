@@ -1,6 +1,7 @@
 #about{
     background-color: var(--primary-color);
     padding: 9rem 0rem;
+    z-index: 999;
 }
 
 .about__wrapper{
