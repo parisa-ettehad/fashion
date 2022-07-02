@@ -11,7 +11,7 @@
 
 .sale__wrapper p {
     color: gray;
-    font-size: small;
+    font-size: 12px;
     margin-bottom: 2.5rem;
 }
 
@@ -47,7 +47,7 @@
 
 .sale__wrapper--mid p{
     color: gray;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .sala__h2{
