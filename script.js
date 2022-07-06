@@ -24,3 +24,11 @@ menuItems.forEach(
       menuItem.addEventListener("click", toggleMenu);
     }
 )
+
+
+function topFunction() {
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0;
+  }
+  
+  mybutton.addEventListener("click", topFunction);
