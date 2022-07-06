@@ -1,7 +1,7 @@
 .collection--wrapper{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px , 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(290px , 1fr));
     justify-content: space-around;
     align-items: center;
     grid-gap: 28px;
@@ -64,5 +64,13 @@
     }
     .box2 img{
         border-bottom-right-radius: 0px;
+    }
+}
+@media (max-width: 360px) {
+    .collection--box img{
+        display: none;
+    }
+    .collection--box {
+        align-items: center;
     }
 }

@@ -79,7 +79,6 @@
     }
     .header__wrapper--mid{
         position: relative;
-        left: -30px;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -87,6 +86,11 @@
     }
     .hamburger{
         display: block;
+    }
+}
+@media(max-width: 400px){
+    .header__wrapper--mid sub{
+        font-size: 9px;
     }
 }
 .showMenu{
