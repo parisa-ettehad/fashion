@@ -1,12 +1,12 @@
 <div align="center">
-    <img src="">
+    <img src="./logo.png">
 
   <h3 align="center">.: Fashion :.</h3>
 
   <p align="center">
     Helps you organize your income and expenses!
    </p> 
-    <a align="center" href="">View Live
+    <a align="center" href="https://parisa-ettehad.github.io/fashion/">View Live
     </a>
 </div>
 

@@ -32,7 +32,7 @@
 
 .hero__wrapper--mid{
     position: absolute;
-    top: 80px;
+    top: 110px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -43,14 +43,15 @@
 
 .ring{
     border-radius: 50%;
-    height: 420px;
-    width: 420px;
+    height: 450px;
+    width: 450px;
     background-color: var(--primary-color);
 }
 
 .hero__wrapper--mid img{
     position:absolute;
-    left: -20px;
+    height: 650px;
+    left: -40px;
 }
 
 .hero__wrapper--right{
