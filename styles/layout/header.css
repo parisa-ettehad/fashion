@@ -59,9 +59,6 @@
 .menu a{
     text-decoration: none;
     color: var(--blue-color);
-}
-
-.menuItem{
     margin: 1.7rem;
 }
 
