@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="./images/cloth4-removebg-preview (1).png" type="image/x-icon" />
     <link rel="stylesheet" href="./styles/home/home.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <title>Fashion</title>
 </head>
 <body>
@@ -100,34 +101,24 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tempora optio nobis corrupti velit?</p>
                             <a class="link__add">Add to Cart <i class="fa-solid fa-up-right-from-square"></i></a>
                         </div>
-                        <div class="right__slider">
-                            <div class="right__slider--top">
-                                <p>More of The List</p>
-                                <div class="right__top--buttons">                                
-                                    <button type="button" class="btn btn__primary slider__btn">
-                                        <i class="fa-solid fa-arrow-left"></i>
-                                    </button>
-    
-                                    <button type="button" class="btn btn__primary slider__btn">
-                                        <i class="fa-solid fa-arrow-right"></i>
-                                    </button>
+                        <div class="testSwiper">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide">
+                                    <img src="./images/profile1-removebg-preview.png"></div>
+                                  <div class="swiper-slide">
+                                    <img src="./images/profile2.png">
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <img src="./images/hero.png">
+                                  </div>
                                 </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-prev">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-scrollbar"></div>
                             </div>
-    
-                            <div class="right__slider--bottom">
-                                <button type="button" class="btn btn__primary profile__btn">
-                                     <img src="./images/profile1-removebg-preview.png">
-                                </button>
-    
-                                <button type="button" class="btn btn__primary profile__btn">
-                                     <img src="./images/profile2.png">
-                                </button>
-    
-                                <button type="button" class="btn btn__primary profile__btn">
-                                     <img src="./images/hero.png">
-                                </button>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 
@@ -375,6 +366,27 @@
         </section>
     
     </main>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script type="module">
+        import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'; 
+        const swiper = new Swiper('.testSwiper' , {
+            slidesPerView:3 ,
+            direction: 'vertical',loop: false,
+            pagination: {
+                el: '.swiper-pagination', 
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            scrollbar: {
+            el: '.swiper-scrollbar',
+            },
+        });
+    </script>
+
 
     <script src="./script.js"></script>
 </body>

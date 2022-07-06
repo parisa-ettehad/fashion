@@ -71,33 +71,26 @@
     font-weight: bold;
 }
 
-.right__slider{
-    margin-top: 7rem;
-    margin-left: 5rem;
-}
-
-.right__slider--top{
+.swiper-wrapper{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 90px;
-}
+    justify-content: space-between;
+} 
 
-.right__top--buttons{
-    position: relative;
-    top: -12px;
-}
-
-.right__slider--bottom{
-    width: 100%;
-    height: 100px;
+.testSwiper{
+    margin-top: 7rem;
+    margin-left: 5rem;
     display: flex;
     justify-content: flex-start;
     gap: 15px
 }
+.swiper-slide{
+    background-color: var(--font-color);
+    height: 100px;
+    width: 70px;
+}
 
-.right__slider--bottom img{
+.testSwiper img{
     width: 60px;
     position: relative;
     top: 3px;
