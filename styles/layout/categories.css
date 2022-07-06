@@ -22,7 +22,7 @@
 
 .categories__wrapper--header{
     margin-bottom: 50px;
-    width: 350px;
+    max-width: 350px;
 }
 
 .categories__wrapper--grid{

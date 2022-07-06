@@ -50,8 +50,9 @@
 
 .hero__wrapper--mid img{
     position:absolute;
-    height: 650px;
+    height: 690px;
     left: -40px;
+    top: -100px;
 }
 
 .hero__wrapper--right{

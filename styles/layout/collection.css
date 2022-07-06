@@ -1,7 +1,7 @@
 .collection--wrapper{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(290px , 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px , 1fr));
     justify-content: space-around;
     align-items: center;
     grid-gap: 28px;
@@ -55,9 +55,6 @@
 }
 
 @media (max-width: 830px){
-    .box3{
-        height: 408px;
-    }
     .box3 img{
         position: relative;
         top: 16px;
@@ -70,7 +67,13 @@
     .collection--box img{
         display: none;
     }
-    .collection--box {
+    .collection--box 
+    {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
+        width: 290px;
     }
 }
