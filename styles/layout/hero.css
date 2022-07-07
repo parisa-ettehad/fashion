@@ -43,16 +43,16 @@
 
 .ring{
     border-radius: 50%;
-    height: 450px;
-    width: 450px;
+    height: 490px;
+    width: 490px;
     background-color: var(--primary-color);
 }
 
 .hero__wrapper--mid img{
     position:absolute;
-    height: 690px;
-    left: -40px;
-    top: -70px;
+    height: 730px;
+    left: -50px;
+    top: -50px;
 }
 
 .hero__wrapper--right{
