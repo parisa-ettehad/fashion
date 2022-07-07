@@ -68,6 +68,9 @@
 }
 
 @media(max-width: 880px){
+    .header__wrapper--mid h1{
+        font-size: 27px;
+    }
     .header__wrapper--left{
         display: none;
     }
@@ -88,9 +91,19 @@
         display: block;
     }
 }
-@media(max-width: 400px){
+@media(max-width: 470px){
+    
+    .header__wrapper--mid h1{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
     .header__wrapper--mid sub{
         font-size: 9px;
+    }
+}
+@media(max-width: 774px){
+    .header__wrapper{
+        margin-bottom: 27px;
     }
 }
 .showMenu{
