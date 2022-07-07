@@ -67,6 +67,14 @@
     color: var(--primary-color);
 }
 
+.link{
+    margin-bottom: 16px;
+}
+
+.link2{
+    margin-bottom: 11px;
+}
+
 @media(max-width: 880px){
     .header__wrapper--mid h1{
         font-size: 27px;
