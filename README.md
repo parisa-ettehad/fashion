@@ -26,6 +26,9 @@ The process incldes:
 + sales
 + updates
   
+ What makes this product different is the pleasent experience you'll have, due to its customizable offers, excellent features and UI/UX Design.
+
+Of course, It is not the best platform yet, but we are adding new features every day to make it the best you've ever seen. 
  
 ### Built With
 ---
@@ -44,9 +47,10 @@ See the [open issues](https://parisa-ettehad.github.io/fashion/issues) for a ful
 
 ### Contributing
 ---
-What makes this product different is the pleasent experience you'll have, due to its customizable offers, excellent features and UI/UX Design.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-Of course, It is not the best platform yet, but we are adding new features every day to make it the best you've ever seen.
+If you have a suggestion that would make this better, please fork the repo and create a pull request. Don't forget to give the project a star! Thanks again!
+
 ### Contact 
 ---
 
