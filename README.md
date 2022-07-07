@@ -42,7 +42,11 @@ Of course, It is not the best platform yet, but we are adding new features every
 
 - [&#xD7;] Implement Landing page
 
+<<<<<<< HEAD
 See the [open issues](https://github.com/parisa-ettehad/fashion/issues) for a full list of proposed features (and known issues).
+=======
+See the [open issues]([[https://parisa-ettehad.github.io/fashion/issues](https://github.com/parisa-ettehad/fashion/issues)](https://github.com/parisa-ettehad/fashion/issues)) for a full list of proposed features (and known issues).
+>>>>>>> 37ec76f2e278ab5d79c1a23caca704b5b1291cf9
 
 
 ### Contributing
