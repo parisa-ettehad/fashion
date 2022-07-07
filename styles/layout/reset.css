@@ -78,6 +78,7 @@ a{
     background-color: var(--button-color);
     border:1.5px solid var(--button-color);
     color: var(--blue-color);
+    cursor: pointer;
 }
 
 /* BEM */   
