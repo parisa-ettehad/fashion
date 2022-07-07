@@ -52,7 +52,7 @@
     position:absolute;
     height: 690px;
     left: -40px;
-    top: -100px;
+    top: -70px;
 }
 
 .hero__wrapper--right{
@@ -74,26 +74,38 @@
 .swiper-wrapper{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 } 
+.swiper{
+    width: 300px;
+}
 
 .testSwiper{
-    margin-top: 7rem;
-    margin-left: 5rem;
+    margin: 7rem 11rem;
     display: flex;
     justify-content: flex-start;
-    gap: 15px
+    gap: 15px;
 }
 .swiper-slide{
     background-color: var(--font-color);
-    height: 100px;
-    width: 70px;
+    text-align: center;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
 }
 
 .testSwiper img{
     width: 60px;
-    position: relative;
-    top: 3px;
+    height: 100px;
 }
 
 @media (max-width: 1010px){

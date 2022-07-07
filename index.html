@@ -101,7 +101,8 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tempora optio nobis corrupti velit?</p>
                             <a class="link__add">Add to Cart <i class="fa-solid fa-up-right-from-square"></i></a>
                         </div>
-                        <div class="testSwiper">
+                        <div class="swiper ">
+                            <div class="testSwiper">
                                 <div class="swiper-wrapper">
                                   <div class="swiper-slide">
                                     <img src="./images/profile1-removebg-preview.png"></div>
@@ -113,12 +114,9 @@
                                   </div>
                                 </div>
                                 <div class="swiper-pagination"></div>
-                                <div class="swiper-button-prev">
-                                    <i class="fa-solid fa-arrow-left"></i>
-                                </div>
-                                <div class="swiper-button-next"></div>
                                 <div class="swiper-scrollbar"></div>
                             </div>
+                        </div>
                     </div>
                 </div>
                 
@@ -367,26 +365,28 @@
     
     </main>
 
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <script type="module">
-        import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'; 
-        const swiper = new Swiper('.testSwiper' , {
-            slidesPerView:3 ,
-            direction: 'vertical',loop: false,
-            pagination: {
-                el: '.swiper-pagination', 
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            scrollbar: {
-            el: '.swiper-scrollbar',
-            },
-        });
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".testSwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false
+        },
+        slidesPerView: "auto",
+        speed: 6000,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        }
+      });
     </script>
-
 
     <script src="./script.js"></script>
 </body>
