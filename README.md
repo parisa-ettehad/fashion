@@ -13,7 +13,7 @@
 
 ### About The Project
 ---
-![projectImg](../fashion/Screenshot%20(769).png)
+![projectImg](./Screenshot%20(769).png)
 Fashion website is an online shoping that helps to choose the clothes you want and buy them easily. You can see alot of collections, categories, and sales in this website.
 
 
