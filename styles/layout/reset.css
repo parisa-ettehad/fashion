@@ -23,7 +23,7 @@
 /* px , rem , em , pt , percent */
 html{
     font-size: 62.5%;
-    font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lora', serif ,"Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -56,6 +56,24 @@ ul{
 
 a{
     text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1{
+    color: var(--font-color);
+    font-size: 30px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.right__header h1{
+    margin-bottom: 1rem;
+    color: var(--font-color);
 }
 
 .container {

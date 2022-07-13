@@ -18,7 +18,6 @@
 .header__wrapper--mid h1{
     position: relative;
     color: var(--font-color);
-    font-size: 30px;
     top: 10px;
     font-family: 'Libre Baskerville', serif;
 }

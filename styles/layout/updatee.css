@@ -8,14 +8,8 @@
     color: var(--blue-color);
 }
 
-.update__wrapper h1{
-    color: var(--font-color);
-    font-size: 30px;
-}
-
 .update__wrapper p{
     color: gray;
-    font-size: 12px;
 }
 
 .update__wrapper--header{

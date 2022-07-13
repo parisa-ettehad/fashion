@@ -11,7 +11,6 @@
 
 .sale__wrapper p {
     color: gray;
-    font-size: 12px;
     margin-bottom: 2.5rem;
 }
 
@@ -48,7 +47,6 @@
 
 .sale__wrapper--mid p{
     color: gray;
-    font-size: 12px;
     text-align: center;
 }
 
