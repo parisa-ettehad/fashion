@@ -7,7 +7,7 @@
     grid-gap: 28px;
 }
 
-.collection--wrapper h4{
+.collection--wrapper h3{
     color: var(--blue-color);
 }
 
@@ -33,6 +33,7 @@
     align-items: center;
     display: flex;
     border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .box1 , .box2{
@@ -51,6 +52,10 @@
 .box2 img{
     border-bottom-right-radius: 20px;
     position: relative;
+}
+
+.col__link:hover{
+    transform: translateY(-0.5rem) translateX(0.5rem);
 }
 
 @media (max-width: 830px){

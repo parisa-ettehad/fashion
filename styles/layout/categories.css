@@ -14,7 +14,7 @@
 .categories__wrapper p{
     color: gray;
 }
-.categories__wrapper h3{
+.categories__wrapper h2{
     color: black;
     margin-top: 12px;
 }
@@ -60,4 +60,10 @@
 .categories__grid--img{
     background-color: var(--primary-color);
     border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.categories__grid:hover{
+    transform: translateY(-2rem);
+
 }

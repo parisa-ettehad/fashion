@@ -4,7 +4,7 @@
     flex-direction: column;
 }
 
-.update__wrapper h4{
+.update__wrapper h3{
     color: var(--blue-color);
 }
 
@@ -46,14 +46,14 @@
 
 .date span{
     background-color: var(--light-color);
-    height: 60px;
-    width: 40px;
     font-size: 15px;
 }
 
 .wrapper__detaile--box img{
     border-radius: 20px;
     height: 300px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
 }
 
 .wrapper__detaile--box{

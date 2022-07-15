@@ -33,9 +33,10 @@
     padding: 50PX 10px;
     z-index: 999;
     background-color: var(--primary-color);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.sale__wrapper--mid h4{
+.sale__wrapper--mid h3{
     color: var(--blue-color);
 }
 
@@ -58,7 +59,19 @@
 
 .sale__wrapper--mid span{
     color: var(--font-color);
-}
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
 
 .sale__wrapper--right{
     z-index: 999;

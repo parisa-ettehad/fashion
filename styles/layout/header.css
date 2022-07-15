@@ -11,6 +11,14 @@
     gap: 20px;
 }
 
+.nav__list{
+    font-size: 17px;
+}
+
+.submenu:hover{
+    transform: translateY(-0.5rem) translateX(0.5rem);
+}
+
 .header__wrapper--mid{
     text-align: center;
 }
